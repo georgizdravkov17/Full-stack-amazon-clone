@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.logo{
+    color: goldenrod !important;
+}
+
+.list{
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input{
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+a{
+    color: var(--white) !important;
+}
+
+.item{
+    margin-right: 0.5rem;
+}
+
+.buttons > *{
+    margin-right: 0.5rem;
+}

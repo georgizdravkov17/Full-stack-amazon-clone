@@ -1,0 +1,22 @@
+:root{
+  --dark-blue: #203040;
+  --white: #FFFFFF;
+  --grey: #C2C2C2;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style-type: none;
+}
+
+a:hover{
+   text-decoration: underline !important;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
